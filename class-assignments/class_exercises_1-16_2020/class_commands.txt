@@ -1,0 +1,25 @@
+  304  cd Developer/repos/CSB/unix/sandbox/
+  305  cd Developer/repos/CSB/unix/data/
+  306  cp ../sandbox/Karan.txt .
+  307  ls
+  308  ..
+  309  cd ..
+  310  cd sandbox/
+  311  mv Buzzard2015_about.txt ../data/Buzzard2015_about2.txt
+  312  mkdir KaranKaran_Work
+  313  cd Karan_Work/
+  314  cd KaranKaran_Work/
+  315  mkdir Karan1
+  316  cd Karan1/
+  317  touch file1.txt file2.txt file3.txt file4.txt file5.txt
+  318  ls
+  319  rm *.txt
+  320  ls
+  321  cd ..
+  322  history 10
+  323  history 25
+  324  cd ..
+  325  rmdir KaranKaran_Work/
+  326  rm -ri KaranKaran_Work/
+  327  y
+  328  history 25 > class_exercises.txt
