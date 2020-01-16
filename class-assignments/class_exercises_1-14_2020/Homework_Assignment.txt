@@ -1,0 +1,123 @@
+Homework Assignment
+
+Code: cd Developer/repos/eeb-c177-homework/class-assignments/class_exercises_1-14-2020/data-shell
+
+Code: pwd
+
+Code: ls -F
+
+Code: mkdir thesis
+
+Code: ls -F
+
+Code: ls -F thesis
+
+Code: cd thesis
+
+Code: nano draft.txt
+
+Code: ctrl + o, enter, ctrl + x
+
+Code: ls
+
+Code: touch my_file.txt
+
+Code: ls -l
+
+Code: ~/Developer/repos/eeb-c177-homework/class-assignments/class_exercises_1-14-2020/data-shell
+
+Code: mv thesis/draft.txt thesis/quotes.txt
+
+Code: ls thesis
+
+Code: mv thesis/quotes.txt . 
+
+Code: ls thesis
+
+Code: ls quotes.txt
+
+Code: cp quotes.txt thesis/quotations.txt
+
+Code: ls quotes.txt thesis/quotations.txt
+
+Code: cp -r thesis thesis_backup
+
+Code: ls thesis thesis_backup
+
+Code: rm quote.txt
+
+Code: ls quotes.txt
+
+Code: rm -r thesis
+
+Code: cd data
+
+Code: mkdir backup
+
+Code: cp amino-acid.txt animals.txt backup/
+
+
+Exercises: 
+
+
+1. Touch command creates a new file called my_file.txt 
+2. The command ls -l is used to inspect lines and my_file.txt is 0 bytes.
+3. This can be done for programs that are not able to create output files themselves (for example nano) and require empty files that have already been generated. THe touch command does not require this type of procedure.
+
+4. The mistake is that Sucrose and Maltose need to be in the raw folder.
+
+5. mv statstics.txt statistics.txt is the command I would use to rename file
+
+
+6. THe output of the closing ls command is that recombine folder will show up since it is the only directory in the data
+
+
+7. It will remove the regular file and this output will show up, $ rm: remove regular file 'thesis_backup/quotations.txt'? y
+ 
+
+
+8. If given one file name that is followed by a directory name, then cp will copy the file to the named directory (if the destination directory must be the last argument.) If you have three file names, cp showsan error because it does not receive a directory name as the last argument. The error code would look like this: cp: target ‘morse.txt’ is not a directory.
+
+
+
+9. ls *t??ne.pdb is the ls command that will yeild the outcome of ethane.pdb methane.pdb
+
+
+
+10. These are the commands that should be typed out: 
+$ cp *calibration.txt backup/calibration
+$ cp 2015-11-* send_to_bob/all_november_files/
+$ cp *-23-dataset* send_to_bob/all_datasets_created_on_a_23rd/
+
+
+
+11. Jamie needs to move her files fructose.dat and sucrose.dat to the analyzed directory. 
+
+
+
+12. Commands 1 and 2 will work to achieve this objective:
+
+Command 1 
+$ mkdir 2016-05-20
+$ mkdir 2016-05-20/data
+$ mkdir 2016-05-20/data/processed
+$ mkdir 2016-05-20/data/raw
+
+Command 2
+$ mkdir 2016-05-20
+$ cd 2016-05-20
+$ mkdir data
+$ cd data
+$ mkdir raw processed
+
+
+
+
+
+
+
+
+
+
+
+

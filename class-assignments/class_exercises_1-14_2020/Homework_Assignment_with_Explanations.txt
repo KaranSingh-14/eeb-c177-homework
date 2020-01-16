@@ -1,0 +1,177 @@
+Homework Assignment With Explanation
+
+Code: cd Developer/repos/eeb-c177-homework/class-assignments/class_exercises_1-14-2020/data-shell
+
+Leads to data-shell directory
+
+Code: pwd
+
+Prints the working directoty and shows me that I am in the data-shell directory
+
+Code: ls -F
+
+This is list command that shows what the data-shell directory contains
+
+Code: mkdir thesis
+
+Makes a directory called thesis in data-shell directory
+
+Code: ls -F
+
+This is list command that shows what the data-shell directory contains
+
+Code: ls -F thesis
+
+A way to ensure that you are in the correct directory and it is empty
+
+Code: cd thesis
+
+cd (change directory) changes directory to thesis
+
+Code: nano draft.txt
+
+This uses a program called nano to create a text file and the name gets assigned acording to what one puts after "nano" in their code
+
+Code: ctrl + o, enter, ctrl + x
+
+This is used to save and then exit out of the text file.
+
+Code: ls
+
+This shows that the draft file appears in the thesis folder.
+
+Code: touch my_file.txt
+
+This made a new file named my_file.txt
+
+Code: ls -l
+
+This command shows the information of the files. The my_file.txt was 0 bytes because it had no content.
+
+Code: ~/Developer/repos/eeb-c177-homework/class-assignments/class_exercises_1-14-2020/data-shell
+
+This took me back to the data-shell folder.
+
+Code: mv thesis/draft.txt thesis/quotes.txt
+
+This renamed the draft.txt to quotes.txt. The folder it is in remained the same.
+
+Code: ls thesis
+
+This confirms the previous changes.
+
+Code: mv thesis/quotes.txt . 
+
+This moves the file quotes.txt from the thesis folder to the folder I was working in.
+
+Code: ls thesis
+
+No file named quotes.txt is in the thesis folder.
+
+Code: ls quotes.txt
+
+The file shows up in the current working directory.
+
+Code: cp quotes.txt thesis/quotations.txt
+
+This copies the quotes file to the thesis folder and renames it as quotations.txt
+
+Code: ls quotes.txt thesis/quotations.txt
+
+This shows that the quotes.txt file is still in the current directory and a copy is in the thesis folder.
+
+Code: cp -r thesis thesis_backup
+
+This created a backup folder called thesis_backup. 
+
+Code: ls thesis thesis_backup
+
+Both the thesis folder and thesis_backup show up in the working directory.
+
+Code: rm quote.txt
+
+Removed quotes.txt
+
+Code: ls quotes.txt
+
+No file such as quotes.txt is in the working directory.
+
+Code: rm -r thesis
+
+Removed thesis folder
+
+Code: cd data
+
+Changed directory to data.
+
+Code: mkdir backup
+
+Made backup folder
+
+Code: cp amino-acid.txt animals.txt backup/
+
+This copied the files (amino-acid.txt animals.txt) to the backup folder. 
+
+
+Exercises: 
+
+
+1. Touch command creates a new file called my_file.txt 
+2. The command ls -l is used to inspect lines and my_file.txt is 0 bytes.
+3. This can be done for programs that are not able to create output files themselves (for example nano) and require empty files that have already been generated. THe touch command does not require this type of procedure.
+
+4. The mistake is that Sucrose and Maltose need to be in the raw folder.
+
+5. mv statstics.txt statistics.txt is the command I would use to rename file
+
+
+6. THe output of the closing ls command is that recombine folder will show up since it is the only directory in the data
+
+
+7. It will remove the regular file and this output will show up, $ rm: remove regular file 'thesis_backup/quotations.txt'? y
+ 
+
+
+8. If given one file name that is followed by a directory name, then cp will copy the file to the named directory (if the destination directory must be the last argument.) If you have three file names, cp showsan error because it does not receive a directory name as the last argument. The error code would look like this: cp: target ‘morse.txt’ is not a directory.
+
+
+
+9. ls *t??ne.pdb is the ls command that will yeild the outcome of ethane.pdb methane.pdb
+
+
+
+10. These are the commands that should be typed out: 
+$ cp *calibration.txt backup/calibration
+$ cp 2015-11-* send_to_bob/all_november_files/
+$ cp *-23-dataset* send_to_bob/all_datasets_created_on_a_23rd/
+
+
+
+11. Jamie needs to move her files fructose.dat and sucrose.dat to the analyzed directory. 
+
+
+
+12. Commands 1 and 2 will work to achieve this objective:
+
+Command 1 
+$ mkdir 2016-05-20
+$ mkdir 2016-05-20/data
+$ mkdir 2016-05-20/data/processed
+$ mkdir 2016-05-20/data/raw
+
+Command 2
+$ mkdir 2016-05-20
+$ cd 2016-05-20
+$ mkdir data
+$ cd data
+$ mkdir raw processed
+
+
+
+
+
+
+
+
+
+
