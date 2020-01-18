@@ -1,0 +1,30 @@
+  347  ls
+  348  cd Developer/repos/CSB/unix/sandbox/
+  349  ls
+  350  wget -c http://dev.shawntylerschwartz.com/docs/paragraphs.txt
+  351  ls
+  352  nano paragraphs.txt
+  353  cd ~/Developer/repos/
+  354  cd eeb-c177-homework/class-assignments/
+  355  mkdir homework-two
+  356  mv ~/Developer/repos/CSB/unix/sandbox/paragraphs.txt ./homework-two/paragraphs.txt
+  357  ls
+  358  cd homework-two/
+  359  ls
+  360  ls paragraphs.txt 
+  361  nano paragraphs.txt 
+  362  cd ..
+  363  git add -A
+  364  git commit -m "Moved paragraphs.txt file to homework-two"
+  365  git push origin master
+  366  cd homework-two/
+  367  mv ./paragraphs.txt ./easy-question.txt
+  368  ls easy-question.txt 
+  369  nano easy-question.txt 
+  370  git add -A
+  371  git commit -m "Renamed paragraphs.txt file to easy-question.txt"
+  372  git push origin master
+  373  history 30 > hw2-part1-commands.txt
+  374  ls easy-question.txt hw2-part1-commands.txt 
+  375  nano hw2-part1-commands.txt 
+  376  history 30 > hw2-part1-commands.txt 
