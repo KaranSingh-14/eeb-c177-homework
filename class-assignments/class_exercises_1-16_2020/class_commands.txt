@@ -23,3 +23,6 @@
   326  rm -ri KaranKaran_Work/
   327  y
   328  history 25 > class_exercises.txt
+
+These are the class commands we typed on 1/16/20
+
