@@ -1,0 +1,6 @@
+  388  git commit -m "Pacifici-25wordcount.txt" 
+  389  git push origin master
+  390  cd ..
+  391  cd CSB/unix/data/
+  392  head -n 25 Pacifici2013_data.csv | wc -w
+  393  history 6 > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part2-commands-2.txt 
