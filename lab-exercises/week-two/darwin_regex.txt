@@ -1,0 +1,10 @@
+Number 1 \b[s](\w)*
+Number 2  (\w+)[.?]
+Number 3  \b[^(.|?|!)]*
+Number 4 \b[^(\.|\?|\!)]*(?<=\s) struggle for existence,?(?=\s)[^(\.|\?|\!)]*
+
+Extra Credit:(^\w*|\b[^(\.|?|\!)]*(?<=(\.|\?))(\w)*)
+In order to highlight the first word in every sentence. 
+You have to use a ^ which gets the begining the of a line and then the \w to capture word characters and the * means from 0 onwards and | is the pipe command that is used to separate commands for the computer to follow
+ its important to create a word boundary so you dont continues to highlight everything after the starting word string command and this is done via the \b which creates a boundary and makes sure to exclude periods, exclamation points and question marks. 
+
