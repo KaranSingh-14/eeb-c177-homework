@@ -3,9 +3,6 @@ Number 2  (\w+)[.?]
 Number 3  \b[^(.|?|!)]*
 Number 4 \b[^(\.|\?|\!)]*(?<=\s) struggle for existence,?(?=\s)[^(\.|\?|\!)]*
 
-Extra Credit:(^\w*|\b[^(\.|?|\!)]*(?<=(\.|\?))(\w)*)
+Extra Credit:(^\w*|\b[^(\.|\?|\!)]*(?<=(\.|\?))(\w)*)
 
-In order to highlight the first word in every sentence. 
-You have to use a ^ which gets the begining the of a line and then the \w to capture word characters and the * means from 0 onwards and | is the pipe command that is used to separate commands for the computer to follow
- its important to create a word boundary so you dont continues to highlight everything after the starting word string command and this is done via the \b which creates a boundary and makes sure to exclude periods, exclamation points and question marks. 
-The ? allows you to match 0 or 1 of the previous characters and > makes it the end of the word (its the look behind feature) which in this cases means to not include ., ?, or ! in the string of the new word at the start of a new sentence.
+I used a pipe in my regex so I could highlight any word that followed a period + space or a question mark + space (denoting the end of a sentence and the begining of the sentence in this specific script) and the first word of the string (since no sentence came before it). The first part of the pipe, "^\w*", highlights the first word of the string (^ means start of string and \w* means 0 or more instances of characters - a word). The second part of the pipe uses the look behind regex "?<=" which in this case looks for a . or a ? followed by a space (represented in the parenthesis after the look behind). "\w*" means the regex will find 0 or more instances of a character (a word) and since the lookbehind command is behind it, it will look for the end of a sentence before that word. "\b" - word boundary ensures I do not capture the space before the word. [^\.|\?|\!] excludes the terminating punctuation.
