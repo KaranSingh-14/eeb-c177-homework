@@ -1,0 +1,4 @@
+  518  tail -n +2 ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr ";" " " | sort -r -n -k 6 > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/BodyM.csv
+  519  ls ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/
+  520  nano ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/BodyM.csv
+  521  history 4 > hw2-part5-commands.txt
