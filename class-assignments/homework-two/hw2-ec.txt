@@ -1,0 +1,22 @@
+1.10.1
+
+1. Command cd ~/Developer/repos/CSB/unix/sandbox
+2. Command ls -lh ../data/Marra2014_data.fasta				Output 533k bytes
+3. Command cp ../data/Marra2014_data.fasta my_file.fasta
+4. Command grep -c isogroup00036 my_file.fasta				Output 16 contigs
+5. Command cat my_file.fasta | tr -s ' ' ',' > tempofile.txt
+   Command mv tempofile.txt my_file.fasta
+6. Command grep '>' my_file.fasta | head -n 4				Output showed column 4 as isogroups
+   Command grep '>' my_file.fasta | cut -d ',' -f 4 | sort | uniq | wc -l	Output showed 43 isogroups
+7. Command grep '>' my_file.fasta | head -n 4				Output showed contig as col 1 and numreads as col 3
+   Command grep '>' my_file.fasta | cut -d ',' -f 1,3 | sort -r -t '=' -n -k 2 | head -n 1
+   Output showed contig 00302. It had 3330 numreads
+
+1.10.2
+
+1. Command cd ~/Developer/repos/CSB/unix/data
+   Command head -n 1 Gesquiere2011_data.csv				Output showed MaleID as first column
+   Command cut -f 1 Gesquiere2011_data.csv | grep -c -w 3		Output 61
+   Command cut -f 1 Gesquiere2011_data.csv | grep -c -w 27		Output 5
+2. Got stuck on how to test a potential script and save it.
+3. Got stuck on how to test a potential script and save it. 
