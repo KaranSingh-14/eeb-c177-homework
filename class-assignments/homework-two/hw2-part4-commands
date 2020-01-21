@@ -1,0 +1,18 @@
+  493  wget -c http://dev.shawntylerschwartz.com/doc/fish_species.txt
+  494  cd Developer/repos/eeb-c177-homework/class-assignments/homework-two/
+  495  wget -c http//dev.shawntylerschwartz.com/docs/fish_species.txt
+  496  wget -c http://dev.shawntylershwartz.com/doc/fish_species.txt
+  497  wget -c http://dev.shawntylerschwartz.com/docs/fish_species.txt
+  498  Nano fish_species.txt
+  499  nano fish_species.txt
+  500  git add -A
+  501  git commit -m "Addedwget file - fish_species.txt"
+  502  git push origin master
+  503  ls
+  504  sort fish_species.txt > fishes-sort.txt
+  505  sort -r  fish_species.txt > fishes-rev-sort.txt
+  506  uniq fish_species.txt > fishes-unique.txt
+  507  nano fishes-sort.txt
+  508* history 13 > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part4-commands 
+  509* nano fishes-unique.txthistory 13 > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part4-commands
+  510  history 18 > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part4-commands
