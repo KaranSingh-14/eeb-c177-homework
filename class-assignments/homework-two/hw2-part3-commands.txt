@@ -1,0 +1,70 @@
+  415  ls Developer/repos/CSB/unix/data/ | wc -l > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/pipe-data-lines.txt
+  416  cd ~/Developer/repos/CSB/unix/data/miRNA/
+  417  ls
+  418  cat ggo_miR.fasta ppa_miR.fasta | wc -m > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/fasta-cat.txt
+  419  cd ../../../..
+  420  eeb-c177-homework/class-assignments/homework-two/
+  421  git add -A
+  422  cd eeb-c177-homework/class-assignments/homework-two/
+  423  git add -A
+  424  git commit -m "Did part 1 of part 3"
+  425  git push origin master
+  426  ls
+  427  cd ../../..
+  428  ls
+  429  CSB/unix/data/
+  430  cd CSB/unix/data/
+  431  ls
+  432  > Pacifici2013_data.csv 
+  433  head -n Pacifici2013_data.csv 
+  434  ls
+  435  cd Developer/repos/eeb-c177-homework/lab-exercises/week-two/
+  436  nano dna_regex.txt 
+  437  nana dna_regex.txt 
+  438  nano dna_regex.txt 
+  439  nano darwin_regex.txt 
+  440  nano dna_regex.txt 
+  441  git add -A
+  442  git commit -m "Did part 1 of the hw2"
+  443  git push origin master
+  444  nano dna_regex.txt 
+  445  git add -A
+  446  git commit -m "Hw 2 dna"
+  447  ls
+  448  cd Developer/repos/eeb-c177-homework/class-assignments/
+  449  ls
+  450  cd homework-two/
+  451  ls
+  452  cd ..
+  453  cd Developer/repos/eeb-c177-homework/lab-exercises/week-two/
+  454  ls
+  455  nano darwin_regex.txt 
+  456  cd Developer/repos/eeb-c177-homework/lab-exercises/week-two/
+  457  ls
+  458  nano darwin_regex.txt.save
+  459  ls
+  460  nano darwin_regex.txt
+  461  nano darwin_regex.txt.save 
+  462  cd Developer/repos/eeb-c177-homework/lab-exercises/week-two/
+  463  nano darwin_regex.txt 
+  464  git add -A
+  465  git commit -m "Updated code"
+  466  git push origin master 
+  467  head -n 1 ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv 
+  468  cut -d ";" -f 3 ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv | head -n 1
+  469  cd ~/Developer/repos/CSB/unix/data/
+  470  ls
+  471  nano Pacifici2013_data.csv 
+  472  head -n 1 ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv 
+  473  cut -d ";" -f 3 ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv | head -n 1
+  474  cut -d ";" -f 3 ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv | head -n 11
+  475  cut -d ";" -f 3 ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv | head -n 10
+  476  cut -d ";" ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv | tail -n 5
+  477  tail -n 5 ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv
+  478  tail -n +2 Pacifici2013_data.csv | head -n 10 > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/Pacifici-ten.txt
+  479  nano ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/Pacifici-ten.txt
+  480  history 30
+  481  history 40
+  482  history 60
+  483  history 70
+  484  history 70 > ~/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part3-commands.txt
