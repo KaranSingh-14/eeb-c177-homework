@@ -1,0 +1,14 @@
+Since many of the files have the word part, I used find.. -iname "*part*"
+then opened up a new terminal and created a class assignments folder for 1-23 and this was the output I received.
+
+
+/home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part1-commands.txt
+/home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part2-commands-2.txt
+/home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part4-commands
+/home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part2-commands-1.txt
+/home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part5-commands.txt
+/home/eebc177student/Developer/repos/eeb-c177-homework/class-assignments/homework-two/hw2-part3-commands.txt
+
+
+
+
