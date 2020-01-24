@@ -27,6 +27,7 @@ Output `114`
 2. ` tail -n +2 nobel.csv | cut -d "," -f 5-6 | sort | uniq -d`
 
 Output 
+
 ```
 "Comité international de la Croix Rouge (International Committee of the Red Cross)",NA
 "Frederick","Sanger"
@@ -39,14 +40,18 @@ Output
 3. `tail -n +2 nobel.csv | cut -d "," -f 6 | sort | uniq -c | sort -g`
 
 Output 
- 
-```5 "Smith"
-     31 NA```
+
+```
+      5 "Smith"
+     31 NA
+```
+
 Smith was the most common surname
 
 4. `tail -n +2 nobel.csv | cut -d "," -f3 | sort | uniq -c | sort -g`
 
 Output 
+
 ``` 
     81 "economics"
     114 "literature"
