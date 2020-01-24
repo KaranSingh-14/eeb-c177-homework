@@ -22,7 +22,8 @@ Output
 
 2. `tail -n +2 European_Red_List.csv | cut -d "," -f 4,10 | grep AVES | sort | uniq -c`
 
-Output ```
+Output
+```
      10 AVES,CR
      18 AVES,EN
       2 AVES,EX
